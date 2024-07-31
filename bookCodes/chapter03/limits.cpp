@@ -7,6 +7,8 @@
 using namespace std;
 int main()
 {
+    short myShort = 1;
+    cout << "sizeof(short): " << sizeof(myShort) << endl;
     int intMax = INT_MAX;
     cout << "int max: " << intMax << endl;
     cout << "sizeof(int): " << sizeof(intMax) << endl;
